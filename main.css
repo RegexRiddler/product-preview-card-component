@@ -1,6 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --aurometal-saurus: #6C7289;
+    --cream: #F2EAE2;
+    --deep-aquamarina: #3D8168;
+    --deep-aquamarine-hover: #1A4032;
+    --gunmetal: #1C232B;
+    --white: #FFFFFF;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: var(--aurometal-saurus);
+
+    background-color: var(--cream);
+    padding: 28px 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.product-image {
+    border-radius: 10px 10px 0 0;
+}
+
+.product-card {
+    background-color: var(--white);
+    padding: 24px;
+    border-radius: 0 0 10px 10px;
+}
+
+.overline {
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+    color: var(--gunmetal);
+    margin-bottom: 16px;
+}
+
+@media (min-width: 450px) {
+
+}
+
 .attribution { 
     position: absolute;
     top: 0;
