@@ -35,7 +35,6 @@ main {
 }
 
 .product-image {
-    content: url(./images/image-product-mobile.jpg);
     border-radius: 10px 10px 0 0;
 }
 
@@ -74,6 +73,7 @@ p {
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
+    line-height: 32px;
 }
 
 strong {
@@ -87,7 +87,6 @@ strong {
 i {
     font-size: 13px;
     font-style: normal;
-    line-height: 23px;
     text-decoration-line: line-through;
 }
 
@@ -103,7 +102,6 @@ i {
     color: var(--white);
 
     background-color: var(--deep-aquamarina);
-    /* padding: 15px 0 16px 0; */
     height: 48px;
     border-radius: 8px;
     transition: all .3s ease;
