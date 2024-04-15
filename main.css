@@ -31,7 +31,7 @@ main {
     flex-direction: column;
     border-radius: 10px;
     max-width: 343px;
-    transition: all .6s ease;
+    transition: all .3s ease;
 }
 
 .product-image {
@@ -43,6 +43,9 @@ main {
     background-color: var(--white);
     padding: 24px;
     border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .overline {
@@ -89,8 +92,10 @@ i {
 }
 
 .cta {
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11.615px;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
@@ -110,8 +115,9 @@ i {
 @media (min-width: 632px) {
     main {
         flex-direction: row;
+        justify-content: flex-start;
         max-width: 600px;
-        transition: all .6s ease;
+        transition: all .3s ease;
     }
 
     .product-image {
@@ -131,10 +137,6 @@ i {
 
     h1 {
         margin-bottom: 24px;
-    }
-
-    p {
-        margin-bottom: 29px;
     }
 
     .price {
