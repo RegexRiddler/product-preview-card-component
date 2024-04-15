@@ -103,7 +103,8 @@ i {
     color: var(--white);
 
     background-color: var(--deep-aquamarina);
-    padding: 15px 0 16px 0;
+    /* padding: 15px 0 16px 0; */
+    height: 48px;
     border-radius: 8px;
     transition: all .3s ease;
 }
